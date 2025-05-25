@@ -401,7 +401,7 @@ h1, h2, h3 {
     left: 50%;
     transform: translate(-50%, 100%) scale(0.9);
     width: 340px;
-    background: var(--secondary-light);
+    background: var(--primary-dark);
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
     padding: 1.5rem;
@@ -411,7 +411,7 @@ h1, h2, h3 {
     visibility: hidden;
     transition: opacity 0.3s ease, transform 0.3s ease;
     z-index: 10;
-    color: var(--text-primary);
+    color: var(--text-light);
 }
 
 .card-popup::-webkit-scrollbar {
@@ -446,14 +446,29 @@ h1, h2, h3 {
 }
 
 .card-link {
-    color: var(--text-primary);
+    color: var(--accent-color);
     font-size: 1.5rem;
     margin: 0 1rem;
     transition: var(--transition);
 }
 
 .card-link:hover {
-    color: var(--accent-color);
+    color: var(--text-light);
+}
+
+.card-popup .skill-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.card-popup .skill-tags span {
+    background: var(--primary-light);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
 }
 
 .project-card .skill-tags {
