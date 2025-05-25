@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Typed.js for Hero Section
     new Typed('.typed-text', {
-        strings: ['an AI Engineer', 'a Data Scientist', 'a Problem Solver', 'a Creator'],
+        strings: ['an AI Engineer', 'a Data Scientist', 'a Problem Solver'],
         typeSpeed: 50,
         backSpeed: 25,
         backDelay: 1000,
